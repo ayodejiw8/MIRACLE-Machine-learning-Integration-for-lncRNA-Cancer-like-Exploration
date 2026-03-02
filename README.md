@@ -1,4 +1,4 @@
-# MIRACLE-Machine-learning-Integration-for-RNA-Cancer-specific-LncRNA-Exploration-
+# MIRACLE:Machine-learning-Integration-for-RNA-Cancer-specific-LncRNA-Exploration-
 This research is a part of the undergraduate research 2025-2026 cohort at Albany State University, Albany GA, USA 31705
 
 Conducted by Ayodeji Williams and mentored by professors Dr. Olabisi Ojo & Dr. Wanjun Hu
