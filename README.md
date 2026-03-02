@@ -3,7 +3,7 @@ This research was conducted as a part of the **2025-2026 undergraduate research 
 
 Conducted by **Ayodeji Williams** and mentored by professors: **Dr. Olabisi Ojo & Dr. Wanjun Hu**
 
-A joint research between the **Department of Math,Computer Science and Physics & Department of Natural Sciences**
+A joint research between the **Department of Math, Computer Science and Physics & Department of Natural Sciences**
 
 We used the research paper [LncDC](https://www.nature.com/articles/s41598-022-22082-7) by Li, M., & Liang, C. (2022) as the basis for our research.
 
@@ -14,7 +14,7 @@ We used data sets from the Target-OS project
 
 Files are above
 
-**We used the python script "mRNA-Analysis1.py" to perform data analysis and visualization for**
+We used the python script "mRNA-Analysis1.py" to perform data analysis and visualization for
   
   --->[mRNA Data: os_target_gdc_clinical_data.tsv](https://master.cbioportal.org/study/summary?id=os_target_gdc)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
