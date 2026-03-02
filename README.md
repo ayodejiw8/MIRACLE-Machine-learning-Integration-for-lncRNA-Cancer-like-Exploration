@@ -11,8 +11,9 @@ The Github repo for LncDC:https://github.com/lim74/LncDC
 
 ### Dataset Sources
 We used data sets from the Target-OS project
+Files are above
   
-  [mRNA Data:os_target_gdc_clinical_data.tsv](https://master.cbioportal.org/study/summary?id=os_target_gdc)
+  [mRNA Data: os_target_gdc_clinical_data.tsv](https://master.cbioportal.org/study/summary?id=os_target_gdc)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **The contents below comes from the research proposal, they contains words like "will" implying our plans rather than action already taken, this README was written during the research process.**
