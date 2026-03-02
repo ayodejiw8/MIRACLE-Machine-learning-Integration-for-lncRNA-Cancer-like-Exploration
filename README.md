@@ -5,7 +5,7 @@ Conducted by **Ayodeji Williams** and mentored by professors: **Dr. Olabisi Ojo 
 
 A joint research between the **Department of Math,Computer Science and Physics & Department of Natural Sciences**
 
-We used the research project [LncDC](https://www.nature.com/articles/s41598-022-22082-7) as the basis for our research.
+We used the research project/paper [LncDC](https://www.nature.com/articles/s41598-022-22082-7) as the basis for our research.
 
 Thte Github repo for LncDC:https://github.com/lim74/LncDC
 
