@@ -11,7 +11,7 @@ We used the research project/paper [LncDC](https://www.nature.com/articles/s4159
 ### Dataset Sources
 We used data sets from the Target-OS project
   
-  [mRNA Data:os_target_gdc_clinical_data.tsv](https://master.cbioportal.org/study/summary?id=os_target_gdc)
+  
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 The Github repo for LncDC:https://github.com/lim74/LncDC
 
