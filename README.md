@@ -16,8 +16,8 @@ Files are above
 
 **1.** We used the python script "mRNA-Analysis1.py" to perform data analysis and visualization for
   
-  --->[mRNA Data: os_target_gdc_clinical_data.tsv](https://master.cbioportal.org/study/summary?id=os_target_gdc) (in folders Data Analysis and Datasets respectively)
-
+  --->[mRNA Data: os_target_gdc_clinical_data.tsv](https://master.cbioportal.org/study/summary?id=os_target_gdc) (in folders Data Analysis and Datasets respectively
+  
 **2.** We downloaded Augmented Star Gene data "gdc_download_20260303_162919.355206.tar.gz" and perfomed and lncRNA focused analysis of it with the python script "augmentedStarGeneAnalysis.py"
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
