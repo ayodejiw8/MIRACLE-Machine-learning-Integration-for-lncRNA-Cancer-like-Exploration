@@ -1,0 +1,48 @@
+import streamlit as st
+import pandas as pd
+import joblib
+import numpy as np
+
+# Load our trained model
+model = joblib.load('os_lncrna_detector.pkl')
+
+st.title("MIRACLE Project: Osteosarcoma lncRNA Detector")
+st.markdown("Developed by Ayodeji Williams | ASU Bioinformatics")
+
+st.sidebar.header("User Input")
+uploaded_file = st.sidebar.file_uploader("Upload STAR-Aligned Gene Counts (.tsv)", type="tsv")
+
+if uploaded_file is not None:
+    # Read the dataset
+    df = pd.read_csv(uploaded_file, sep='\t', skiprows=1)
+    
+    # Extract the necessary lncRNA values
+    try:
+        malat1 = df[df['gene_name'] == 'MALAT1']['tpm_unstranded'].values[0]
+        neat1 = df[df['gene_name'] == 'NEAT1']['tpm_unstranded'].values[0]
+        
+        # Display extracted values
+        st.write(f"### Analysis for {uploaded_file.name}")
+        col1, col2 = st.columns(2)
+        col1.metric("MALAT1 TPM", f"{malat1:.2f}")
+        col2.metric("NEAT1 TPM", f"{neat1:.2f}")
+
+        # Perform Prediction
+        sample = pd.DataFrame([[malat1, neat1]], columns=['MALAT1', 'NEAT1'])
+        prob = model.predict_proba(sample)[0][1]
+        
+        st.write("---")
+        st.write("## Detection Result")
+        
+        if prob > 0.7:
+            st.error(f"High Risk of Osteosarcoma Signature: {prob*100:.1f}% probability")
+        elif prob > 0.4:
+            st.warning(f"Moderate Risk / Borderline: {prob*100:.1f}% probability")
+        else:
+            st.success(f"Normal/Healthy Signature: {prob*100:.1f}% probability")
+            
+    except IndexError:
+        st.error("Error: Could not find MALAT1 or NEAT1 in the dataset. Please ensure the file follows GDC standards.")
+
+else:
+    st.info("Please upload an RNA-Seq .tsv file in the sidebar to begin analysis.")
