@@ -112,7 +112,7 @@ elif uploaded_file is not None:
                     features = np.array([[m1_val, n1_val]])
                     prob = model.predict_proba(features)[0][1]
                     
-                    st.subheader("AI Diagnostic Intelligence")
+                    st.subheader("ML Diagnostic Intelligence")
                     if prob > 0.75:
                         st.error(f"🚨 **HIGH RISK**: {prob*100:.1f}% OS Probability")
                         st.write("Profile closely matches Osteosarcoma signatures.")
