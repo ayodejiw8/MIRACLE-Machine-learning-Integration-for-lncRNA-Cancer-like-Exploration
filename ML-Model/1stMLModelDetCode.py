@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Load the model you built with Gemini
-model = joblib.load('os_lncrna_detector.pkl')
+model = joblib.load('os_lncrna_detector(1).pkl')
 
 def detect_os(malat1_tpm, neat1_tpm):
     # Create a small dataframe for the model to read
