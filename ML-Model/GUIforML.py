@@ -22,6 +22,7 @@ model = load_model()
 st.set_page_config(page_title="MIRACLE Multi-Omic Hub", page_icon="🧬", layout="wide")
 
 st.title("🧬 MIRACLE: Multi-Omic Osteosarcoma Detector")
+st.markdown("Machine learning Integration for RNA Cancer-specific LncRNA Exploration")
 st.markdown("### Albany State University Undergraduate Research 2025-2026")
 st.markdown("**Principal Investigator:** Ayodeji Williams | **Mentors:** Dr. Olabisi Ojo & Dr. Wanjun Hu")
 st.markdown("College of Arts and Sciences | Department of Math, CS, and Physics & Department of Natural Sciences")
