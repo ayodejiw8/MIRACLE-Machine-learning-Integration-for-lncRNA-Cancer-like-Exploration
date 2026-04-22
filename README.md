@@ -5,6 +5,8 @@ Conducted by **Ayodeji Williams** and mentored by: **Dr. Olabisi Ojo & Dr. Wanju
 
 A joint research between the **Department of Math, Computer Science and Physics & Department of Natural Sciences**
 
+🏆 Awarded 3rd Place for Oral Presentation & 3rd Place for Poster Presentation at the 2026 ASU Research Symposium.
+
 We used the research paper [LncDC](https://www.nature.com/articles/s41598-022-22082-7) by Li, M., & Liang, C. (2022) as the basis of our research.
 
 The Github repo for LncDC:https://github.com/lim74/LncDC
